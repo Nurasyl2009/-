@@ -1,0 +1,30 @@
+Command: python -m unittest -v
+Exit code: 0
+test_bounded_history_and_isolation (test_ai.AIIntegration.test_bounded_history_and_isolation) ... ok
+test_chat_history_and_reset (test_ai.AIIntegration.test_chat_history_and_reset) ... ok
+test_error_preserves_state (test_ai.AIIntegration.test_error_preserves_state) ... ok
+test_http_error_does_not_expose_body_or_key (test_ai.AIIntegration.test_http_error_does_not_expose_body_or_key) ... ok
+test_improvement_keeps_original (test_ai.AIIntegration.test_improvement_keeps_original) ... ok
+test_ollama_payload_and_response (test_ai.AIIntegration.test_ollama_payload_and_response) ... ok
+test_openai_extracts_message_after_reasoning (test_ai.AIIntegration.test_openai_extracts_message_after_reasoning) ... ok
+test_template_does_not_call_model (test_ai.AIIntegration.test_template_does_not_call_model) ... ok
+test_announcement (test_assistant.Workflows.test_announcement) ... ok
+test_date_and_reset (test_assistant.Workflows.test_date_and_reset) ... ok
+test_isolation (test_assistant.Workflows.test_isolation) ... ok
+test_missing_facts (test_assistant.Workflows.test_missing_facts) ... ok
+test_votes (test_assistant.Workflows.test_votes) ... ok
+test_edit_rejects_atomically (test_extensions.Extensions.test_edit_rejects_atomically) ... ok
+test_empty_and_unknown_do_not_destroy_state (test_extensions.Extensions.test_empty_and_unknown_do_not_destroy_state) ... ok
+test_export_requires_completed_input (test_extensions.Extensions.test_export_requires_completed_input) ... ok
+test_multiple_questions_and_old_edit (test_extensions.Extensions.test_multiple_questions_and_old_edit) ... ok
+test_reopen_and_isolation (test_extensions.Extensions.test_reopen_and_isolation) ... ok
+test_vote_batch (test_extensions.Extensions.test_vote_batch) ... ok
+test_dotenv_bom_quotes_and_fail_closed (test_whatsapp.WhatsAppTests.test_dotenv_bom_quotes_and_fail_closed) ... ok
+test_filter_and_duplicates (test_whatsapp.WhatsAppTests.test_filter_and_duplicates) ... ok
+test_http_rejects_unsigned_and_accepts_verified_payload (test_whatsapp.WhatsAppTests.test_http_rejects_unsigned_and_accepts_verified_payload) ... ok
+test_signature (test_whatsapp.WhatsAppTests.test_signature) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.582s
+
+OK
